@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <div className='bg-secondary bg-opacity-10'>
             <NavComponent />
-            <div className="p-5 mb-4 bg-light rounded-3 jumbotron">
+            <div id='Home' className="p-5 mb-4 bg-light rounded-3 jumbotron">
             <div className="container py-5 text-center">
               <p className="fs-5 fst-italic mt-5">Full Stack Developer</p>
               <h1 className="display-4">Wibisana Putra Setyanegara</h1>
@@ -19,7 +19,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <div className="container text-center">
+            <div id='About' className="container text-center">
             <div className='card'>
             <h2 className='mt-2'>About me</h2>
             <div className="row d-flex align-items-center">
@@ -46,7 +46,7 @@ export default function Home() {
                 <GitHubCalendar username="isanaID" />
                 </div>
             </div>
-            <div className="container align-self-center mt-3">
+            <div id='Project' className="container align-self-center mt-3">
                 <h4 className="text-center">Projects</h4>
                 <div className="d-flex justify-content-evenly flex-wrap">
                 <Card style={{ width: '22rem' }}>
@@ -84,7 +84,7 @@ export default function Home() {
                 <Button href="https://github.com/isanaID/" variant="dark">Project Lainnya</Button>
                   </div>
             </div>
-              <div className="container align-self-center mt-3">
+              <div id='Skill' className="container align-self-center mt-3">
               <h3 className="text-center">Skills</h3>
               <div className="d-flex justify-content-evenly flex-wrap">
                 <ul className="flexul flex-item justify-start"> 
@@ -167,7 +167,7 @@ export default function Home() {
                     </ul>
                   </div>
               </div>
-              <div className='container text-center card'>
+              <div id='Contact' className='container text-center card'>
               <h2 className='mt-2'>Contact</h2>
               <h5>Email : <a href="mailto:eizisana@gmail.com">eizisana@gmail.com </a></h5>
               <h5>Phone : 0822-4685-9192</h5>
@@ -176,9 +176,8 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/isanawib/"><Image src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png" alt=""></Image></a>
               </div>
               </div>
-              <footer className="footer">
-                <div className="container">
-                </div>
+              <footer className="bg-dark">
+              <p className='text-light'>© 2021 Wibisana Putra Setyanegara</p>
               </footer>
                 
                 </div>
