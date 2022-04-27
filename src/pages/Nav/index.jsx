@@ -12,7 +12,11 @@ export default function NavComponent() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="#Home">Home</Nav.Link>
+              <Nav.Link href="#About">About me</Nav.Link>
+              <Nav.Link href="#Project">Projects</Nav.Link>
+              <Nav.Link href="#Skill">Skills</Nav.Link>
+              <Nav.Link href="#Contact">Contact</Nav.Link>
             </Nav>
             </div>
             </Container>
